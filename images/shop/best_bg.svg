@@ -1,0 +1,29 @@
+<svg id="best_bg" xmlns="http://www.w3.org/2000/svg" width="1563" height="801" viewBox="0 0 1563 801">
+  <circle id="타원_43" data-name="타원 43" cx="100" cy="100" r="100" transform="translate(1363)" fill="rgba(142,129,119,0.45)"/>
+  <circle id="타원_35" data-name="타원 35" cx="350" cy="350" r="350" transform="translate(0 101)" fill="rgba(142,129,119,0.45)"/>
+  <g id="타원_52" data-name="타원 52" transform="translate(902 665)" fill="none" stroke="rgba(142,129,119,0.6)" stroke-width="5">
+    <circle cx="55" cy="55" r="55" stroke="none"/>
+    <circle cx="55" cy="55" r="52.5" fill="none"/>
+  </g>
+  <circle id="타원_44" data-name="타원 44" cx="39" cy="39" r="39" transform="translate(688 193)" fill="rgba(27,37,64,0.76)"/>
+  <g id="타원_37" data-name="타원 37" transform="translate(957 174)" fill="none" stroke="rgba(27,37,64,0.76)" stroke-width="10">
+    <circle cx="221" cy="221" r="221" stroke="none"/>
+    <circle cx="221" cy="221" r="216" fill="none"/>
+  </g>
+  <g id="그룹_170" data-name="그룹 170" transform="translate(-151 -2648)">
+    <path id="패스_110" data-name="패스 110" d="M-952.948,2001.363v51.045l-18.99-11.854-18.989,11.854v-51.045Z" transform="translate(1347.948 1182.637)" fill="#1b2540"/>
+    <text id="_1" data-name="1" transform="translate(368 3185.632)" fill="#fff" font-size="25" font-family="IBMPlexSansKR-SemiBold, IBM Plex Sans KR SemiBold" font-weight="600"><tspan x="0" y="27">1</tspan></text>
+  </g>
+  <g id="그룹_171" data-name="그룹 171" transform="translate(-204 -2653.522)">
+    <path id="패스_110-2" data-name="패스 110" d="M-952.948,2001.363v51.045l-18.99-11.854-18.989,11.854v-51.045Z" transform="translate(1714.507 895.637)" fill="#1b2540"/>
+    <text id="_2" data-name="2" transform="translate(734 2898.991)" fill="#fff" font-size="25" font-family="IBMPlexSansKR-SemiBold, IBM Plex Sans KR SemiBold" font-weight="600"><tspan x="0" y="27">2</tspan></text>
+  </g>
+  <g id="그룹_172" data-name="그룹 172" transform="translate(-194 -2663.587)">
+    <path id="패스_110-3" data-name="패스 110" d="M-952.948,2001.363v51.045l-18.99-11.854-18.989,11.854v-51.045Z" transform="translate(2036.927 1172.224)" fill="#1b2540"/>
+    <text id="_3" data-name="3" transform="translate(1056.42 3175.578)" fill="#fff" font-size="25" font-family="IBMPlexSansKR-SemiBold, IBM Plex Sans KR SemiBold" font-weight="600"><tspan x="0" y="27">3</tspan></text>
+  </g>
+  <g id="그룹_173" data-name="그룹 173" transform="translate(-159 -2665.947)">
+    <path id="패스_110-4" data-name="패스 110" d="M-952.948,2001.363v51.045l-18.99-11.854-18.989,11.854v-51.045Z" transform="translate(2327.927 893.061)" fill="#1b2540"/>
+    <text id="_4" data-name="4" transform="translate(1347.42 2896.5)" fill="#fff" font-size="25" font-family="IBMPlexSansKR-SemiBold, IBM Plex Sans KR SemiBold" font-weight="600"><tspan x="0" y="27">4</tspan></text>
+  </g>
+</svg>

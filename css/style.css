@@ -1,0 +1,291 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none; color: #333;}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+}
+/*header*/
+#header{
+    height: 100px;
+    margin: 0 auto;
+    width: 1320px;
+    position: relative;
+}
+#header img{
+    display: block;
+}
+.logo{
+    float: left;
+    width: 218px;/*193px+25px(icon여백과 동일)*/
+    padding-top: 13px;
+}
+.gnb{
+    float: left;
+    padding-top: 42px;
+}
+.gnb li{
+    float: left;
+}
+.gnb li a{
+    padding: 5px 7px;
+    margin: 0 61px;
+}
+.icon_1{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 10.6%;
+}
+.icon_1 li{
+    float: left;
+    padding-left: 25px;
+}
+/*banner*/
+#banner{
+    height: 800px;
+    background-color: aqua;
+    margin-bottom: 160px;
+}
+/*book*/
+#book{
+    text-align: center;
+    height: 520px;
+    background-image: url(../images/book/bg_book.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 160px;
+}
+.sub_title img{
+    display: inline-block;
+    padding-bottom: 80px;
+}
+/*book_slider*/
+.slider {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+/*shop*/
+#shop{
+    margin: 0 auto;
+    width: 1320px;
+    height: 800px;
+    text-align: center;
+    margin-bottom: 160px;
+}
+#shop img{
+    display: inline-block;
+}
+
+.photo_link{
+    height: 674px;
+    border-top: 5px solid #1b2540;
+    border-bottom: 5px solid #1b2540;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.photo_link li{
+    float: left;
+    width: 435px;
+    height: 650px;
+    margin-top: 7px;
+    overflow: hidden;
+    background-color: #023a07;
+}
+.photo_link li:nth-child(1),.photo_link li:nth-child(2){
+    margin-right: 7px;
+}
+.photo_link li a img:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+    opacity: 0.7;
+}
+/*best_wrap*/
+#best_wrap{
+    height: 801px;
+    background: url(../images/best/best_bg.svg) no-repeat top center;
+    margin-bottom: 120px;
+}
+.best{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+    height: 801px;
+    position: relative;
+    background-color:;
+}
+/*제품 사진 공통꾸미기*/
+.best .product img{
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+}
+.d_btn{
+    opacity: 0;
+}
+.product a:hover .d_btn{
+    opacity: 1;
+    transition: opacity 1s;
+}
+/*제품 사진 위치 개별꾸미기*/
+.product1 img{
+    top: 135px;
+    left: 7px;
+}
+.product2 img{
+    bottom: 29px;
+    left: 340px;
+}
+.product3 img{
+    top: 99px;
+    right: 253px;
+}
+.product4 img{
+    bottom: 0px;
+    right: -30px;
+}
+/*detail버튼 위치*/
+.d_btn1{
+    position: absolute;
+    top: 162px;
+    left: 127px;
+    width: 10%;
+}
+.d_btn2{
+    position: absolute;
+    bottom: 170px;
+    left: 127px;
+    width: 10%;
+}
+.d_btn3{
+    position: absolute;
+    top: 160px;
+    right: 139px;
+    width: 10%;
+}
+.d_btn4{
+    position: absolute;
+    bottom:170px;
+    right: 140PX;
+    width: 10%;
+}
+/*text 꾸미기*/
+.text_box{
+    padding-left:55px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+    position: relative;
+}
+.text1{
+    position: absolute;
+    bottom: 100px;
+    left: 51px;
+    width: 270px;
+    background: url(../images/best/best_icon_1.svg) no-repeat top 4px left;
+}
+.text2{
+    position: absolute;
+    top: 195px;
+    left: 380px;
+    width: 270px;
+    background: url(../images/best/best_icon_2.svg) no-repeat top 4px left;
+}
+.text3{
+    position: absolute;
+    bottom: 93px;
+    right: 346px;
+    width: 267px;
+    background: url(../images/best/best_icon_3.svg) no-repeat top 4px left;
+}
+.text4{
+    position: absolute;
+    top: 196PX;
+    right: -28px;
+    width: 297px;
+    background: url(../images/best/best_icon_4.svg) no-repeat top 4px left;
+}
+strong{
+    font-size: 15px;
+}
+.explain{
+    margin-top: 7px;
+}
+span{
+    font-weight: bold;
+    color: #1b2540;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+}
+.p4{
+    padding-top: 20px;
+}
